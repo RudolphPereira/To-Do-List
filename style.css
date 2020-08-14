@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  background: linear-gradient(to left, #9796f0, #fbc7d4);
+  color: white;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  padding-top: 4rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+}
+
+.todo-input,
+.todo-button {
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.todo-button {
+  background-color: #44338f;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.todo-button:hover {
+  background-color: #e9708e;
+}
