@@ -16,7 +16,7 @@ function addTodo(e) {
   //   Create todo li
   const todoItem = document.createElement("li");
   todoItem.classList.add("todo-item");
-  todoItem.innerText = "Hey";
+  todoItem.innerText = todoInput.value;
   toDo.append(todoItem);
   //   Create complete Btn
   const completeBtn = document.createElement("button");

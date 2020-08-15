@@ -28,8 +28,8 @@ header {
 .todo-button {
   border: none;
   background-color: white;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+  font-size: 1.4rem;
+  padding: 0.6rem;
 }
 
 .todo-button {
@@ -41,4 +41,58 @@ header {
 
 .todo-button:hover {
   background-color: #e9708e;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  list-style: none;
+  width: 35%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+}
+
+.todo-item {
+  flex: 1;
+  padding: 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.complete-btn,
+.trash-btn {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  background-color: #44338f;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.complete-btn {
+  background-color: #e9708e;
+}
+
+.complete-btn:hover {
+  background-color: #ff83a2;
+}
+
+.trash-btn:hover {
+  background-color: #5e47c5;
+}
+
+.fa-check,
+.fa-trash-alt {
+  pointer-events: none;
 }
