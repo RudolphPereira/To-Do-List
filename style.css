@@ -29,7 +29,7 @@ header {
   border: none;
   background-color: white;
   font-size: 1.4rem;
-  padding: 0.6rem;
+  padding: 0.5rem;
 }
 
 .todo-button {
@@ -51,7 +51,7 @@ header {
 
 .todo-list {
   list-style: none;
-  width: 35%;
+  width: 30%;
 }
 
 .todo {
@@ -106,4 +106,38 @@ header {
 .fall {
   transform: translateY(8rem) rotateZ(30deg);
   opacity: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 8rem;
+  color: #44338f;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #44338f;
+  top: 0;
+  right: 0;
+  padding: 0.3rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select:hover::after {
+  background-color: #e9708e;
 }
