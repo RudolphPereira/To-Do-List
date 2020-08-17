@@ -8,6 +8,7 @@ body {
   font-family: "Shadows Into Light", cursive;
   background: linear-gradient(to left, #9796f0, #fbc7d4);
   color: white;
+  min-height: 100vh;
 }
 
 header,
@@ -24,12 +25,12 @@ header {
   font-size: 1.4rem;
 }
 
-.todo-input,
-.todo-button {
+form input,
+form button {
   border: none;
   background-color: white;
-  font-size: 1.4rem;
   padding: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .todo-button {
@@ -61,7 +62,7 @@ header {
   background-color: white;
   color: black;
   margin: 0.5rem;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .todo-item {
@@ -78,7 +79,6 @@ header {
   color: white;
   cursor: pointer;
   border: none;
-  transition: all 0.3s ease;
 }
 
 .complete-btn {
@@ -99,8 +99,8 @@ header {
 }
 
 .completed {
-  opacity: 0.5;
   text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .fall {
@@ -115,7 +115,7 @@ select {
   border: none;
   outline: none;
   box-shadow: none;
-  padding: 0.5rem;
+  padding: 0.6rem;
   cursor: pointer;
   width: 8rem;
   color: #44338f;
@@ -133,7 +133,7 @@ select {
   background: #44338f;
   top: 0;
   right: 0;
-  padding: 0.3rem;
+  padding: 0.2rem 0.3rem 0.6rem 0.3rem;
   pointer-events: none;
   transition: all 0.3s ease;
 }
