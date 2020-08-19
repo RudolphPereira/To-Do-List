@@ -12,7 +12,7 @@ filterOption.addEventListener("click", filterTodo);
 // Functions
 function addTodo(e) {
   e.preventDefault();
-  //   Create toDo Div
+  // Create toDo Div
   const toDo = document.createElement("div");
   toDo.classList.add("todo");
   todoList.append(toDo);
