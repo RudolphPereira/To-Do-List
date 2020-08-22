@@ -31,6 +31,7 @@ form button {
   background-color: white;
   padding: 0.5rem;
   font-size: 1.2rem;
+  outline: none;
 }
 
 .todo-button {
