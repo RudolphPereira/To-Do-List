@@ -80,6 +80,7 @@ form button {
   color: white;
   cursor: pointer;
   border: none;
+  outline: none;
 }
 
 .complete-btn {
